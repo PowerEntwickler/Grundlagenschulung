@@ -1,16 +1,16 @@
 # Azure DevOps Boards Grundlagenschulung / Fundamentals Training
 
-Dieses Repository enthaelt eine modulare **Hands-on-Lab-Schulung** fuer **Azure DevOps Boards** in **Azure DevOps Services**. Die Uebungen richten sich an Teilnehmende aus dem allgemeinen **Projektmanagement** und sind bewusst auch fuer weniger technische Personen klar nachvollziehbar aufgebaut.
+Dieses Repository enthält eine modulare **Hands-on-Lab-Schulung** für **Azure DevOps Boards** in **Azure DevOps Services**. Die Übungen richten sich an Teilnehmende aus dem allgemeinen **Projektmanagement** und sind bewusst auch für weniger technische Personen klar nachvollziehbar aufgebaut.
 
 This repository contains a modular **hands-on lab training** for **Azure DevOps Boards** in **Azure DevOps Services**. The exercises are designed for general **project management** learners and are structured to remain easy to follow for less technical participants.
 
 ## Rahmenbedingungen / Training setup
 
 - Azure DevOps Services Organisation: **tuvsud10**
-- Die Menuefuehrung im Training ist grundsaetzlich **Englisch**
+- Die Menüführung im Training ist grundsätzlich **Englisch**
 - Jeweils **2 Teilnehmende teilen sich ein Projekt**
-- Fuer Teamnamen und Beispiel-Work-Items wird der **eigene Vorname** verwendet
-- Vor **Modul 03** muss geklaert werden, wer **Nutzer/User A** und wer **Nutzer/User B** ist
+- Für Teamnamen und Beispiel-Work-Items wird der **eigene Vorname** verwendet
+- Vor **Modul 03** muss geklärt werden, wer **Nutzer/User A** und wer **Nutzer/User B** ist
 
 ## Empfohlene Reihenfolge / Recommended order
 
@@ -26,7 +26,7 @@ This repository contains a modular **hands-on lab training** for **Azure DevOps 
 ## Verwendung im Training / How to use the labs
 
 1. Die Module bauen inhaltlich aufeinander auf und sollten in der angegebenen Reihenfolge bearbeitet werden.
-2. Jede Anleitung enthaelt **Ziel**, **Schritte**, **erwartetes Ergebnis** und eine **Abschlusskontrolle**.
-3. Wenn im System andere Elemente als erwartet sichtbar sind, zuerst **Team selector**, **Area Path** oder **Iteration Path** pruefen.
+2. Jede Anleitung enthält **Ziel**, **Schritte**, **erwartetes Ergebnis** und eine **Abschlusskontrolle**.
+3. Wenn im System andere Elemente als erwartet sichtbar sind, zuerst **Team selector**, **Area Path** oder **Iteration Path** prüfen.
 
 This structure is intended to give the training a consistent and professional flow from basic work item handling to team planning and visual reporting.
