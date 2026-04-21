@@ -1,0 +1,13 @@
+Work Item Type,Title,State,Description,Tags
+Product Backlog Item,"Nutzer A - Kick-off Agenda finalisieren",New,"Die Agenda fuer das Projekt-Kick-off abstimmen und in die finale Version ueberfuehren.","kickoff;planung"
+Product Backlog Item,"Nutzer A - Stakeholderliste ueberarbeiten",New,"Die wichtigsten internen und externen Ansprechpartner ueberpruefen und ergaenzen.","stakeholder;kommunikation"
+Product Backlog Item,"Nutzer A - Kommunikationsmatrix erstellen",New,"Festlegen, welche Zielgruppen welche Informationen in welcher Form erhalten.","kommunikation;planung"
+Product Backlog Item,"Nutzer A - Projektstatusbericht vorbereiten",New,"Eine erste Vorlage fuer das regelmaessige Statusreporting zusammenstellen.","reporting;dokumentation"
+Product Backlog Item,"Nutzer A - Risiko-Workshop planen",New,"Termin, Teilnehmende und Agenda fuer den Risiko-Workshop vorbereiten.","risiko;workshop"
+Product Backlog Item,"Nutzer A - Meetingkalender abstimmen",New,"Regeltermine fuer Projektteam, Lenkungskreis und Abstimmungsrunden festlegen.","termine;planung"
+Product Backlog Item,"Nutzer A - Rollen und Verantwortlichkeiten dokumentieren",New,"Die wichtigsten Rollen im Projekt uebersichtlich beschreiben.","governance;dokumentation"
+Product Backlog Item,"Nutzer A - Budgetfreigabe vorbereiten",New,"Unterlagen fuer die interne Budgetfreigabe zusammenstellen.","budget;freigabe"
+Product Backlog Item,"Nutzer A - Projektziele abstimmen",New,"Die wichtigsten Ziele und Erwartungen mit den Beteiligten abstimmen.","ziele;abstimmung"
+Product Backlog Item,"Nutzer A - Entscheidungsvorlage erstellen",New,"Eine Vorlage fuer Managemententscheidungen im Projekt vorbereiten.","entscheidung;management"
+Product Backlog Item,"Nutzer A - Eskalationsweg dokumentieren",New,"Festlegen, wie bei Problemen oder Verzoegerungen eskaliert wird.","governance;risiko"
+Product Backlog Item,"Nutzer A - Lenkungskreis-Termin vorbereiten",New,"Einladung, Unterlagen und Zielsetzung fuer den naechsten Lenkungskreis vorbereiten.","steuerkreis;kommunikation"

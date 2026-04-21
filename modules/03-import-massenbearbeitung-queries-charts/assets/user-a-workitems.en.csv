@@ -1,0 +1,13 @@
+Work Item Type,Title,State,Description,Tags
+Product Backlog Item,"User A - Finalize kickoff agenda",New,"Align the kickoff agenda and prepare the final version for the project start.","kickoff;planning"
+Product Backlog Item,"User A - Update stakeholder list",New,"Review and extend the list of key internal and external stakeholders.","stakeholder;communication"
+Product Backlog Item,"User A - Create communication matrix",New,"Define which target groups receive which information and in which format.","communication;planning"
+Product Backlog Item,"User A - Prepare project status report",New,"Prepare an initial template for regular project status reporting.","reporting;documentation"
+Product Backlog Item,"User A - Plan risk workshop",New,"Prepare the date, participants, and agenda for the risk workshop.","risk;workshop"
+Product Backlog Item,"User A - Align meeting calendar",New,"Schedule recurring meetings for the project team and steering activities.","meetings;planning"
+Product Backlog Item,"User A - Document roles and responsibilities",New,"Describe the most important project roles in a clear structure.","governance;documentation"
+Product Backlog Item,"User A - Prepare budget approval",New,"Collect the material needed for the internal budget approval.","budget;approval"
+Product Backlog Item,"User A - Align project goals",New,"Align the main project goals and expectations with the stakeholders.","goals;alignment"
+Product Backlog Item,"User A - Create decision template",New,"Prepare a reusable template for management decisions in the project.","decision;management"
+Product Backlog Item,"User A - Document escalation path",New,"Define how issues or delays should be escalated in the project.","governance;risk"
+Product Backlog Item,"User A - Prepare steering committee meeting",New,"Prepare the invitation, material, and objective for the next steering committee session.","steering;communication"
