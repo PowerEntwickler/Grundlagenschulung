@@ -1,6 +1,6 @@
 # Module 06 - Rollup Columns and Delivery Plans
 
-## Goal of this module
+## 🎯 Goal of this module
 In this module, participants learn how to make progress and time-based planning visible at a higher level in Azure DevOps Services. After the lab, they will be able to:
 
 1. make hierarchy visible in the **Backlog** view
@@ -9,7 +9,7 @@ In this module, participants learn how to make progress and time-based planning 
 4. create a **Delivery Plan**
 5. visually understand timelines and planned work
 
-## Scenario
+## 🧭 Scenario
 In the previous modules, many individual work items were created, structured, imported, and planned into sprints. Now the focus shifts to making that information visible for project management and steering.
 
 This module therefore introduces two especially useful features:
@@ -17,20 +17,28 @@ This module therefore introduces two especially useful features:
 - **Rollup Columns** for progress and hierarchy in the backlog view
 - **Delivery Plans** for timeline-based visualization of planned work
 
-## Prerequisites
-- Module 01 to Module 05 have been completed
+## ✅ Prerequisites
+- [Module 01](../01-grundlagen-arbeitselemente-erzeugen/README.en.md) to [Module 05](../05-sprints-planen-und-taskboard/README.en.md) have been completed
 - **Epics**, **Features**, **Product Backlog Items**, **Sprints**, and **Tasks** already exist
 - Access to the Azure DevOps Services organization **tuvsud10**
 - The menu labels are primarily **in English**
+
+## 💡 Best practices for this module
+
+- **Rollup Columns** are only offered on portfolio and product backlogs, not in the sprint backlog.
+- **Progress by Work Items** shows progress based on closed child items, **Progress by Effort** uses Story Points or Remaining Work - choose deliberately.
+- **Delivery Plans** require every participating team to have its own sprint configuration. Without iteration paths the plan stays empty.
+- Rollup aggregates only within the same project.
+- Delivery Plan settings are stored per user. Adjust them on purpose before a presentation.
 
 ---
 
 ## Exercise 1 - Make the hierarchy visible in the backlog
 
-### Goal
+### 🎯 Goal
 Prepare the backlog view so that the relationships between levels become easier to see.
 
-### Steps
+### 🔧 Steps
 1. Go to **Boards > Backlogs**.
 2. Use the **team selector** to choose your own team.
 3. Make sure you are working in a view where **Epics**, **Features**, and **Product Backlog Items** are used in a meaningful way.
@@ -38,17 +46,17 @@ Prepare the backlog view so that the relationships between levels become easier 
 5. Enable the setting that shows **parents**, child levels, or hierarchy information.
 6. Expand a few items so you can see the existing structure more clearly.
 
-### Expected result
+### 🟢 Expected result
 You can now see how the higher and lower planning levels are connected in the backlog view.
 
 ---
 
 ## Exercise 2 - Add rollup columns
 
-### Goal
+### 🎯 Goal
 Extend the backlog view with automatic progress and summary information.
 
-### Steps
+### 🔧 Steps
 1. Stay in **Boards > Backlogs**.
 2. Open **Column options** or the function used to customize the visible columns.
 3. Choose **Add rollup column**.
@@ -60,17 +68,17 @@ Extend the backlog view with automatic progress and summary information.
 6. Arrange the new columns so they are easy to read.
 7. Save or apply the changes.
 
-### Expected result
+### 🟢 Expected result
 The backlog view now shows additional metrics that help you estimate progress and scope more easily.
 
 ---
 
 ## Exercise 3 - Interpret progress across multiple levels
 
-### Goal
+### 🎯 Goal
 Learn how Rollup Columns can support project steering.
 
-### Steps
+### 🔧 Steps
 1. Look at one of the existing **Epics**.
 2. Check which **Features** and **Product Backlog Items** are visible underneath it.
 3. Compare the values in the rollup columns.
@@ -80,17 +88,17 @@ Learn how Rollup Columns can support project steering.
    - where many open topics are still concentrated
 5. Repeat this review for at least one more Epic or Feature.
 
-### Expected result
+### 🟢 Expected result
 You understand how progress can be tracked not only on a single work item, but also across higher planning levels.
 
 ---
 
 ## Exercise 4 - Create a Delivery Plan
 
-### Goal
+### 🎯 Goal
 Create a high-level timeline view for planned work.
 
-### Steps
+### 🔧 Steps
 1. Go to **Boards > Delivery Plans**.
 2. Click **New plan** or **Create plan**.
 3. Give the plan a meaningful name, for example:
@@ -100,17 +108,17 @@ Create a high-level timeline view for planned work.
 6. If needed, choose the relevant backlog levels to show, such as **Features** or **Product Backlog Items**.
 7. Save the plan.
 
-### Expected result
+### 🟢 Expected result
 A dedicated Delivery Plan has now been created for your team.
 
 ---
 
 ## Exercise 5 - Configure and read the Delivery Plan
 
-### Goal
+### 🎯 Goal
 Use the Delivery Plan to understand schedule relationships more clearly.
 
-### Steps
+### 🔧 Steps
 1. Open the Delivery Plan you just created.
 2. Check whether work items from your sprints and backlogs are visible there.
 3. If needed, adjust the visible timeframe or the zoom level.
@@ -121,12 +129,12 @@ Use the Delivery Plan to understand schedule relationships more clearly.
 5. Keep in mind that **Rollup Columns** are shown in the backlog, while the **Delivery Plan** is mainly used for time-based visualization.
 6. If possible, show additional relevant levels or teams and compare the planning view.
 
-### Expected result
+### 🟢 Expected result
 You can now read project timing not only as a list, but also as a visual plan over time.
 
 ---
 
-## Typical pitfalls
+## ⚠️ Typical pitfalls
 
 - If **Rollup Columns** are not offered, check that you are really in the **Backlog** view and not on a board or in a query.
 - If **Delivery Plans** is not visible, tell the trainer. Depending on permissions or setup, access may need to be available first.
@@ -134,7 +142,7 @@ You can now read project timing not only as a list, but also as a visual plan ov
 
 ---
 
-## Final check
+## 🏁 Final check
 By the end of this module, you should have:
 
 1. a backlog view with visible **hierarchy**

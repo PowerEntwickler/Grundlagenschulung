@@ -1,6 +1,6 @@
 # Modul 02 - Teams, Backlogs und Hierarchien
 
-## Ziel dieses Moduls
+## 🎯 Ziel dieses Moduls
 In diesem Modul lernen die Teilnehmenden, wie sie in einem gemeinsam genutzten Azure-DevOps-Projekt mit eigenen Teams und Hierarchien arbeiten. Nach dem Lab können sie:
 
 1. ein eigenes **Team** auf Basis ihres **Vornamens** anlegen
@@ -10,19 +10,19 @@ In diesem Modul lernen die Teilnehmenden, wie sie in einem gemeinsam genutzten A
 5. mit **Backlog Levels** wie **Epic**, **Feature** und **Product Backlog Item** arbeiten
 6. Beziehungen und Hierarchien zwischen Work Items herstellen
 
-## Szenario
+## 🧭 Szenario
 Im ersten Modul wurden bereits erste Product Backlog Items für ein gemeinsames Projekt angelegt. Jetzt wird das Projekt genauer strukturiert: Jede Person der Zweiergruppe richtet ihr eigenes Team ein und ordnet ihre bisherigen Aufgaben diesem Team zu.
 
 Anschliessend werden größere Planungselemente wie **Epics** und **Features** angelegt, damit aus einzelnen Aufgaben eine nachvollziehbare Struktur entsteht.
 
-## Voraussetzungen
-- Modul 01 wurde abgeschlossen
+## ✅ Voraussetzungen
+- [Modul 01](../01-grundlagen-arbeitselemente-erzeugen/README.de.md) wurde abgeschlossen
 - Zugriff auf die Azure DevOps Services Organisation **tuvsud10**
 - Zugriff auf das Projekt Ihrer Zweiergruppe
 - Die Menüführung ist grundsätzlich **Englisch**
 - Es existieren bereits mehrere Product Backlog Items aus Modul 01
 
-## Hinweis zur Zusammenarbeit
+## 🤝 Hinweis zur Zusammenarbeit
 Jede Person legt ein eigenes Team mit dem **eigenen Vornamen** an, zum Beispiel:
 
 `Maria`
@@ -35,10 +35,10 @@ Auch in der deutschen Anleitung werden die tatsächlichen **englischen UI-Begrif
 
 ## Übung 1 - Vorhandene Work Items sichten
 
-### Ziel
+### 🎯 Ziel
 Sie verschaffen sich einen Überblick über die bereits vorhandenen Product Backlog Items aus Modul 01.
 
-### Schritte
+### 🔧 Schritte
 1. Melden Sie sich in der Organisation **tuvsud10** an.
 2. Öffnen Sie das Projekt Ihrer Zweiergruppe.
 3. Wechseln Sie zu **Boards > Work Items**.
@@ -49,17 +49,17 @@ Sie verschaffen sich einen Überblick über die bereits vorhandenen Product Back
 5. Öffnen Sie eines dieser Work Items und schauen Sie sich das Feld **Area Path** an.
 6. Schliessen Sie das Work Item wieder.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Sie sehen, dass die bisherigen Work Items zwar vorhanden sind, aber noch nicht unbedingt einer eigenen Teamstruktur zugeordnet wurden.
 
 ---
 
 ## Übung 2 - Ein eigenes Team anlegen
 
-### Ziel
+### 🎯 Ziel
 Sie erstellen ein eigenes Team innerhalb des gemeinsamen Projekts.
 
-### Schritte
+### 🔧 Schritte
 1. Klicken Sie links unten auf **Project settings**.
 2. Öffnen Sie den Bereich **Teams**.
 3. Klicken Sie auf **New team**.
@@ -71,17 +71,17 @@ Sie erstellen ein eigenes Team innerhalb des gemeinsamen Projekts.
 7. Bestätigen Sie mit **Create**.
 8. Prüfen Sie anschliessend, ob Ihr neues Team in der Teamliste sichtbar ist.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Im Projekt existiert nun ein eigenes Team mit Ihrem Vornamen, und gleichzeitig wurde automatisch ein passender **Area Path** angelegt.
 
 ---
 
 ## Übung 3 - Den automatisch erzeugten Area Path prüfen und Ihrem Team zuordnen
 
-### Ziel
+### 🎯 Ziel
 Sie lernen, wie Teams über Area Paths mit ihren Backlogs und Boards verbunden sind.
 
-### Schritte
+### 🔧 Schritte
 1. Bleiben Sie in **Project settings**.
 2. Öffnen Sie den Bereich **Teams** und wählen Sie Ihr neues Team aus.
 3. Öffnen Sie dort die Team-Konfiguration für **Areas**.
@@ -90,36 +90,36 @@ Sie lernen, wie Teams über Area Paths mit ihren Backlogs und Boards verbunden s
 6. Falls der Bereich noch nicht als Standard für Ihr Team aktiv ist, wählen Sie ihn jetzt aus.
 7. Speichern Sie die Einstellung, falls Azure DevOps dies verlangt.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Ihr Team ist jetzt mit dem automatisch erzeugten eigenen Area Path verknüpft. Damit kann das Team sein eigenes Backlog und Board erhalten.
 
 ---
 
 ## Übung 4 - Bestehende Work Items in Ihr Team verschieben
 
-### Ziel
+### 🎯 Ziel
 Sie ordnen Ihre bisherigen Aufgaben dem richtigen Team zu.
 
-### Schritte
+### 🔧 Schritte
 1. Wechseln Sie zurück zu **Boards > Work Items**.
 2. Öffnen Sie das erste Work Item mit Ihrem Vornamen.
 3. Suchen Sie das Feld **Area Path**.
 4. Ändern Sie den Wert auf den Area Path Ihres Teams, also auf den Eintrag mit Ihrem Vornamen.
 5. Speichern Sie das Work Item.
 6. Wiederholen Sie diese Schritte für die weiteren Work Items aus Modul 01, die zu Ihnen gehören.
-7. Achten Sie darauf, dass Sie nur Ihre eigenen Work Items anpassen und nicht die des anderen Teilnehmers.
+7. Achten Sie darauf, dass Sie nur Ihre eigenen Work Items anpassen und nicht die Ihrer Partnerin oder Ihres Partners.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Ihre bisherigen Product Backlog Items sind nun über den Area Path Ihrem persönlichen Team zugeordnet.
 
 ---
 
 ## Übung 5 - Eigenes Backlog und Board des Teams aufrufen
 
-### Ziel
+### 🎯 Ziel
 Sie erkennen, dass jedes Team in Azure DevOps eigene Sichten auf Arbeitselemente besitzt.
 
-### Schritte
+### 🔧 Schritte
 1. Öffnen Sie zuerst **Boards > Backlogs**.
 2. Beobachten Sie kurz, welche Elemente in der aktuellen Ansicht angezeigt werden.
 3. Wechseln Sie nun oben links in der Projektansicht zum **Team selector**.
@@ -129,12 +129,12 @@ Sie erkennen, dass jedes Team in Azure DevOps eigene Sichten auf Arbeitselemente
 7. Beobachten Sie, ob auf dem Board jetzt hauptsächlich die Work Items sichtbar sind, die Ihrem Team über den Area Path zugeordnet wurden.
 8. Falls Ihre Elemente nicht sichtbar sind, kontrollieren Sie erneut den **Area Path** Ihrer Work Items und die Teamkonfiguration.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Sie haben verstanden, dass Teams eigene Backlogs und Boards besitzen und dass der Area Path steuert, welche Elemente dort erscheinen.
 
 ---
 
-## Typische Stolpersteine
+## ⚠️ Typische Stolpersteine
 
 - Wenn im Backlog oder Board die falschen Elemente erscheinen, prüfen Sie zuerst den **Team selector** oben links.
 - Wenn Ihre eigenen Work Items im Team nicht sichtbar sind, kontrollieren Sie den **Area Path** der Elemente.
@@ -144,10 +144,10 @@ Sie haben verstanden, dass Teams eigene Backlogs und Boards besitzen und dass de
 
 ## Übung 6 - Mit Backlog Levels arbeiten: Epic und Features anlegen
 
-### Ziel
+### 🎯 Ziel
 Sie lernen die verschiedenen Planungsebenen in Azure DevOps kennen.
 
-### Schritte
+### 🔧 Schritte
 1. Bleiben Sie in **Boards > Backlogs** innerhalb Ihres Teams.
 2. Öffnen Sie den Auswahlbereich für die Backlog-Ebene.
 3. Wechseln Sie zuerst auf die Ebene **Epics**.
@@ -160,14 +160,14 @@ Sie lernen die verschiedenen Planungsebenen in Azure DevOps kennen.
 7. Speichern Sie die neuen Elemente.
 8. Schauen Sie sich bewusst an, dass **Epics**, **Features** und **Product Backlog Items** unterschiedliche Backlog Levels darstellen.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Sie haben ein Epic und mehrere Features angelegt und dabei die Backlog Levels in Azure DevOps kennengelernt.
 
 ---
 
 ## Übung 7 - Work Items in eine Hierarchie bringen
 
-### Ziel
+### 🎯 Ziel
 Sie verknüpfen einzelne Aufgaben mit übergeordneten Planungselementen.
 
 Sie lernen dabei **zwei mögliche Wege** kennen. Probieren Sie nach Möglichkeit beide Varianten aus.
@@ -175,12 +175,12 @@ Sie lernen dabei **zwei mögliche Wege** kennen. Probieren Sie nach Möglichkeit
 ### Möglichkeit A - über die Mapping-Ansicht
 1. Bleiben Sie in **Boards > Backlogs** innerhalb Ihres Teams.
 2. Wählen Sie die Backlog-Ebene, auf der Ihre **Product Backlog Items** sichtbar sind.
-3. Öffnen Sie die **Mapping**-Ansicht oder den Bereich für **Parent/Child**-Zuordnungen, falls diese in Ihrem Projekt sichtbar ist.
-4. Lassen Sie sich die übergeordneten Ebenen anzeigen, damit Sie Ihre **Features** und Ihr **Epic** sehen können.
-5. Ordnen Sie zunächst die angelegten **Features** Ihrem **Epic** zu.
-6. Ordnen Sie anschliessend Ihre bestehenden **Product Backlog Items** den passenden **Features** zu.
-7. Achten Sie darauf, dass jedes untergeordnete Element dem fachlich passenden übergeordneten Element zugeordnet wird.
-8. Speichern Sie die Änderungen, falls Azure DevOps dies verlangt.
+3. Öffnen Sie oben rechts **View options** und aktivieren Sie dort **Mapping**. Rechts neben dem Backlog erscheint das **Mapping Pane**.
+4. Stellen Sie im Mapping Pane die übergeordnete Ebene ein, der Sie zuordnen wollen, zum Beispiel **Features** oder **Epics**.
+5. Ziehen Sie zuerst Ihre **Features** per Drag & Drop auf das passende **Epic** im Mapping Pane. Damit werden die Features dem Epic als **Child** zugeordnet.
+6. Wechseln Sie die Backlog-Ebene auf **Product Backlog Items** und setzen Sie das Mapping Pane auf **Features**.
+7. Ziehen Sie Ihre bestehenden **Product Backlog Items** auf das jeweils passende Feature.
+8. Achten Sie darauf, dass jedes untergeordnete Element dem fachlich passenden übergeordneten Element zugeordnet wird. Die Änderungen werden direkt gespeichert.
 
 ### Möglichkeit B - über das Öffnen des Work Items und Hinzufügen eines Links
 1. Öffnen Sie eines Ihrer **Features** oder **Product Backlog Items** direkt.
@@ -193,12 +193,12 @@ Sie lernen dabei **zwei mögliche Wege** kennen. Probieren Sie nach Möglichkeit
 6. Übernehmen Sie den Link und speichern Sie das Work Item.
 7. Wiederholen Sie diesen Vorgang, bis Ihre Struktur vollständig ist.
 
-### Kontrolle nach beiden Varianten
+### 🔍 Kontrolle nach beiden Varianten
 1. Wechseln Sie erneut zwischen den Backlog Levels **Epics**, **Features** und **Product Backlog Items**.
 2. Prüfen Sie, ob die Beziehungen korrekt dargestellt werden.
 3. Öffnen Sie bei Bedarf einzelne Work Items erneut und kontrollieren Sie dort den Bereich **Links**.
 
-### Beispiel für eine sinnvolle Struktur
+### 💡 Beispiel für eine sinnvolle Struktur
 - Epic: `[IhrVorname] Projektvorbereitung Mobilität`
   - Feature: `[IhrVorname] Kick-off und Governance`
     - PBI: `[IhrVorname] Kick-off-Termin vorbereiten`
@@ -206,12 +206,12 @@ Sie lernen dabei **zwei mögliche Wege** kennen. Probieren Sie nach Möglichkeit
     - PBI: `[IhrVorname] Stakeholderliste erstellen`
     - PBI: `[IhrVorname] Kommunikationsplan abstimmen`
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Sie sehen nun eine nachvollziehbare Hierarchie von Epic über Feature bis hin zu den einzelnen Product Backlog Items und kennen zwei Wege, diese Beziehungen herzustellen.
 
 ---
 
-## Abschlusskontrolle
+## 🏁 Abschlusskontrolle
 Am Ende dieses Moduls sollten Sie folgende Ergebnisse sehen:
 
 1. ein eigenes **Team** mit Ihrem Vornamen

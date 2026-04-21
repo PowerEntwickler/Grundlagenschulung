@@ -1,7 +1,7 @@
 # Modul 03 - Import, Massenbearbeitung, Queries und Charts
 
-## Ziel dieses Moduls
-In diesem Modul lernen die Teilnehmenden, wie größere Mengen an Arbeitselementen in Azure DevOps Services importiert und anschliessend strukturiert ausgewertet werden. Nach dem Lab können sie:
+## 🎯 Ziel dieses Moduls
+In diesem Modul lernen die Teilnehmenden, wie rund 15 vorbereitete Arbeitselemente in Azure DevOps Services importiert und anschliessend strukturiert ausgewertet werden. Nach dem Lab können sie:
 
 1. vorbereitete **CSV-Dateien** in Azure DevOps importieren
 2. mehrere Work Items per **Massenbearbeitung** gleichzeitig anpassen
@@ -9,19 +9,19 @@ In diesem Modul lernen die Teilnehmenden, wie größere Mengen an Arbeitselement
 4. eigene **Queries** erstellen und speichern
 5. eine **Chart** auf Basis einer Query anlegen und interpretieren
 
-## Szenario
-Im Alltag kommen neue Projektaufgaben oft nicht einzeln, sondern gesammelt aus einer Liste oder einer Vorabplanung. In diesem Modul übernehmen die Teilnehmenden genau so einen Fall: Sie importieren eine größere Menge an vorbereiteten Product Backlog Items aus einer CSV-Datei.
+## 🧭 Szenario
+Im Alltag kommen neue Projektaufgaben oft nicht einzeln, sondern gesammelt aus einer Liste oder einer Vorabplanung. In diesem Modul übernehmen die Teilnehmenden genau so einen Fall: Sie importieren rund 15 vorbereitete Product Backlog Items aus einer CSV-Datei.
 
-Da sich weiterhin jeweils **zwei Teilnehmende ein Projekt teilen**, gibt es zwei getrennte Datensätze. Nach dem Import werden die Elemente per Massenbearbeitung in den richtigen Teamkontext gebracht. Anschliessend werden Queries und eine Chart erstellt, um die neue Datenmenge sinnvoll auszuwerten.
+Da sich weiterhin jeweils **zwei Teilnehmende ein Projekt teilen**, gibt es zwei getrennte Datensätze. Nach dem Import werden die Elemente per Massenbearbeitung in den richtigen Teamkontext gebracht. Anschliessend werden Queries und eine Chart erstellt, um die Datenmenge sinnvoll auszuwerten.
 
-## Voraussetzungen
-- Modul 01 und Modul 02 wurden abgeschlossen
+## ✅ Voraussetzungen
+- [Modul 01](../01-grundlagen-arbeitselemente-erzeugen/README.de.md) und [Modul 02](../02-teams-backlogs-und-hierarchien/README.de.md) wurden abgeschlossen
 - Sie haben bereits ein eigenes Team mit Ihrem **Vornamen**
 - Für Ihr Team existiert bereits ein passender **Area Path**
 - Zugriff auf die Azure DevOps Services Organisation **tuvsud10**
 - Die Menüführung ist grundsätzlich **Englisch**
 
-## Dateien für dieses Modul
+## 📎 Dateien für dieses Modul
 Die CSV-Dateien liegen in diesem Modulordner unter `assets`:
 
 - [nutzer-a-workitems.de.csv](assets/nutzer-a-workitems.de.csv)
@@ -29,7 +29,7 @@ Die CSV-Dateien liegen in diesem Modulordner unter `assets`:
 - [user-a-workitems.en.csv](assets/user-a-workitems.en.csv)
 - [user-b-workitems.en.csv](assets/user-b-workitems.en.csv)
 
-## Wichtiger Hinweis vor dem Start
+## ⚠️ Wichtiger Hinweis vor dem Start
 Klären Sie **vor dem Import**, wer in Ihrer Zweiergruppe **Nutzer A** und wer **Nutzer B** ist. Jede Person darf **nur die eigene Datei** importieren. So vermeiden Sie doppelte oder falsch zugeordnete Daten im gemeinsamen Projekt.
 
 Auch in der deutschen Anleitung werden die tatsächlichen **englischen UI-Begriffe** aus Azure DevOps Services verwendet.
@@ -38,10 +38,10 @@ Auch in der deutschen Anleitung werden die tatsächlichen **englischen UI-Begrif
 
 ## Übung 1 - Die richtige CSV-Datei auswählen
 
-### Ziel
+### 🎯 Ziel
 Sie wählen den korrekten Importdatensatz für Ihre Rolle aus.
 
-### Schritte
+### 🔧 Schritte
 1. Stimmen Sie sich mit Ihrer Partnerin oder Ihrem Partner ab:
    - eine Person ist **Nutzer A**
    - eine Person ist **Nutzer B**
@@ -54,52 +54,51 @@ Sie wählen den korrekten Importdatensatz für Ihre Rolle aus.
    - `Nutzer B - ...`
 5. Schliessen Sie die Datei wieder, ohne den Inhalt unnötig zu verändern.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Jede Person weiss eindeutig, welche CSV-Datei sie später importiert.
 
 ---
 
 ## Übung 2 - Die Work Items importieren
 
-### Ziel
-Sie importieren eine größere Menge an Product Backlog Items in das gemeinsame Projekt.
+### 🎯 Ziel
+Sie importieren rund 15 vorbereitete Product Backlog Items in das gemeinsame Projekt.
 
-### Schritte
+### 🔧 Schritte
 1. Melden Sie sich in **tuvsud10** an und öffnen Sie das Projekt Ihrer Zweiergruppe.
-2. Wechseln Sie zu **Boards > Work Items**.
-3. Suchen Sie die Funktion **Import work items**. Je nach Ansicht befindet sie sich:
-   - direkt als Schaltfläche
-   - oder im **...**-Menü
-4. Wählen Sie Ihre zuvor festgelegte CSV-Datei aus.
-5. Starten Sie den Import.
-6. Warten Sie, bis Azure DevOps die Vorschau oder das Ergebnis anzeigt.
-7. Kontrollieren Sie stichprobenartig einige importierte Titel mit Ihrem Präfix, zum Beispiel:
+2. Wechseln Sie zu **Boards > Queries**. Der CSV-Import in Azure DevOps Services befindet sich in der Queries-Ansicht, nicht unter **Work Items**.
+3. Öffnen Sie eine vorhandene Query oder legen Sie über **New query** eine leere Query an und führen Sie sie einmal aus, damit die Ergebnistabelle angezeigt wird.
+4. Optional: Klicken Sie im **...**-Menü (drei Punkte) auf **Export to CSV**, um die Azure-DevOps-Spaltenstruktur als Referenz herunterzuladen.
+5. Öffnen Sie erneut das **...**-Menü und wählen Sie **Import Work Items**.
+6. Wählen Sie die für Sie festgelegte CSV-Datei aus und starten Sie den Import.
+7. Warten Sie, bis Azure DevOps die Vorschau der zu importierenden Elemente anzeigt.
+8. Kontrollieren Sie stichprobenartig einige Titel mit Ihrem Präfix, zum Beispiel:
    - `Nutzer A - Kick-off Agenda finalisieren`
    - `Nutzer A - Stakeholderliste überarbeiten`
-8. Klicken Sie auf **Save items**, damit die importierten Elemente tatsächlich gespeichert werden.
-9. Schliessen Sie anschliessend den Importdialog.
+9. Klicken Sie oben auf **Save items**, damit die importierten Elemente tatsächlich gespeichert werden.
+10. Bleiben Sie in der Ansicht, bis die Speicherung bestätigt wurde.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Die Work Items aus Ihrer CSV-Datei sind jetzt im gemeinsamen Projekt vorhanden.
 
 ---
 
 ## Übung 3 - Importierte Elemente per Massenbearbeitung anpassen
 
-### Ziel
+### 🎯 Ziel
 Sie lernen, mehrere Work Items gleichzeitig zu bearbeiten.
 
-### Schritte
-1. Bleiben Sie in **Boards > Work Items**.
+### 🔧 Schritte
+1. Wechseln Sie zu **Boards > Work Items**.
 2. Öffnen Sie, falls der Filterbereich noch nicht sichtbar ist, oben rechts das **Filter**-Icon.
 3. Verwenden Sie als Filter **Filter by keyword** und geben Sie Ihren passenden Nutzernamen ein, also zum Beispiel:
    - `Nutzer A`
    - oder `Nutzer B`
-4. Fahren Sie bei jedem passenden Work Item mit der Maus links neben die ID und setzen Sie dort den Haken.
-5. Wiederholen Sie dies, bis alle relevanten importierten Work Items markiert sind.
+4. Bewegen Sie die Maus links neben die ID eines Work Items - es erscheint eine Checkbox. Setzen Sie dort den Haken.
+5. Wiederholen Sie das, bis alle rund 15 importierten Work Items markiert sind.
 6. Klicken Sie eines der markierten Elemente mit der rechten Maustaste an und wählen Sie **Open selected items in Queries**.
-7. Die Ansicht sollte sich nun zu **Queries** ändern und Ihre ausgewählten Work Items anzeigen.
-8. Klicken Sie eines der angezeigten Work Items an und drücken Sie anschliessend **STRG+A**, damit alle sichtbaren Work Items ausgewählt werden.
+7. Die Ansicht wechselt nun zu **Queries** und zeigt Ihre ausgewählten Work Items.
+8. Setzen Sie den Fokus in die Ergebnisliste, zum Beispiel durch einen Klick auf ein beliebiges Work Item. Drücken Sie anschliessend **Strg + A**, damit alle Zeilen ausgewählt werden.
 9. Klicken Sie erneut mit der rechten Maustaste und wählen Sie **Edit**.
 10. Ändern Sie in einem gemeinsamen Bearbeitungsschritt mindestens diese Felder:
    - **Area Path** auf Ihren eigenen Teambereich mit Ihrem Vornamen
@@ -108,17 +107,17 @@ Sie lernen, mehrere Work Items gleichzeitig zu bearbeiten.
 11. Speichern Sie die Änderungen für alle markierten Elemente.
 12. Kontrollieren Sie stichprobenartig zwei oder drei Work Items, ob die Anpassungen wirklich übernommen wurden.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Sie haben mehrere Elemente gleichzeitig bearbeitet und damit die Grundlage für die spätere Auswertung geschaffen.
 
 ---
 
 ## Übung 4 - Die importierten Work Items in den eigenen Teamkontext bringen
 
-### Ziel
+### 🎯 Ziel
 Sie stellen sicher, dass die importierten Elemente im richtigen Team-Backlog und Board sichtbar werden.
 
-### Schritte
+### 🔧 Schritte
 1. Öffnen Sie **Boards > Backlogs**.
 2. Wechseln Sie über den **Team selector** auf Ihr eigenes Team mit Ihrem Vornamen.
 3. Prüfen Sie, ob Ihre importierten Work Items jetzt im Backlog Ihres Teams sichtbar sind.
@@ -126,17 +125,17 @@ Sie stellen sicher, dass die importierten Elemente im richtigen Team-Backlog und
 5. Korrigieren Sie fehlende oder falsche Zuordnungen bei Bedarf erneut über eine **Massenbearbeitung**.
 6. Wechseln Sie anschliessend zu **Boards > Boards** und prüfen Sie die Sichtbarkeit dort ebenfalls.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Ihre importierten Work Items erscheinen jetzt im Teamkontext Ihres eigenen Backlogs und Boards.
 
 ---
 
 ## Übung 5 - Eine erste Query für die importierten Elemente erstellen
 
-### Ziel
+### 🎯 Ziel
 Sie erstellen eine wiederverwendbare Abfrage für Ihre importierten Daten.
 
-### Schritte
+### 🔧 Schritte
 1. Wechseln Sie zu **Boards > Queries**.
 2. Erstellen Sie eine neue Query vom Typ **Flat list of work items**.
 3. Geben Sie der Query einen aussagekräftigen Namen, zum Beispiel:
@@ -149,17 +148,17 @@ Sie erstellen eine wiederverwendbare Abfrage für Ihre importierten Daten.
 6. Prüfen Sie, ob hauptsächlich Ihre gerade importierten Elemente angezeigt werden.
 7. Speichern Sie die Query.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Sie haben eine erste persönliche Query erstellt, mit der Sie Ihre importierten Work Items schnell wiederfinden.
 
 ---
 
 ## Übung 6 - Eine zweite Query für die Auswertung erstellen
 
-### Ziel
+### 🎯 Ziel
 Sie lernen, Queries gezielt für bestimmte Fragestellungen zu nutzen.
 
-### Schritte
+### 🔧 Schritte
 1. Erstellen Sie eine zweite Query, ebenfalls als **Flat list of work items**.
 2. Vergeben Sie einen Namen wie:
    `Meine offenen importierten PBIs`
@@ -172,17 +171,17 @@ Sie lernen, Queries gezielt für bestimmte Fragestellungen zu nutzen.
 6. Vergleichen Sie das Ergebnis mit der ersten Query.
 7. Speichern Sie auch diese Query.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Sie haben verstanden, dass Queries nicht nur zum Suchen dienen, sondern auch gezielt für Auswertungen aufgebaut werden können.
 
 ---
 
 ## Übung 7 - Eine aussagekräftige Chart auf Basis einer Query anlegen
 
-### Ziel
+### 🎯 Ziel
 Sie visualisieren Ihre importierten Arbeitselemente so, dass die Auswertung im Training direkt sinnvoll lesbar ist.
 
-### Schritte
+### 🔧 Schritte
 1. Öffnen Sie eine Ihrer gespeicherten Queries, am besten die Query mit mehreren sichtbaren Ergebnissen.
 2. Wechseln Sie in den Bereich **Charts**.
 3. Klicken Sie auf **New chart** oder **Add chart**.
@@ -199,12 +198,12 @@ Sie visualisieren Ihre importierten Arbeitselemente so, dass die Auswertung im T
    - Wo liegen mögliche Schwerpunkte wie `planung`, `kommunikation` oder `reporting`?
 9. Optional können Sie später eine zweite Chart nach **State** anlegen, sobald einige Elemente manuell in andere Bearbeitungsstände verschoben wurden.
 
-### Erwartetes Ergebnis
+### 🟢 Erwartetes Ergebnis
 Sie haben erfolgreich eine Chart auf Basis einer Query erstellt und können die Verteilung Ihrer importierten Arbeitselemente visuell auswerten.
 
 ---
 
-## Typische Stolpersteine
+## ⚠️ Typische Stolpersteine
 
 - Wenn nach dem Import keine neuen Elemente sichtbar sind, wurde oft der Schritt **Save items** vergessen.
 - Wenn Ihre importierten Elemente nicht im eigenen Backlog erscheinen, prüfen Sie zuerst **Area Path** und **Team selector**.
@@ -212,11 +211,11 @@ Sie haben erfolgreich eine Chart auf Basis einer Query erstellt und können die 
 
 ---
 
-## Abschlusskontrolle
+## 🏁 Abschlusskontrolle
 Am Ende dieses Moduls sollten Sie folgende Ergebnisse sehen:
 
 1. die korrekte CSV-Datei für **Nutzer A** oder **Nutzer B** wurde importiert
-2. eine größere Menge neuer **Product Backlog Items** ist im Projekt vorhanden
+2. rund 15 neue **Product Backlog Items** sind im Projekt vorhanden
 3. die importierten Elemente wurden per **Massenbearbeitung** angepasst
 4. die Work Items sind Ihrem eigenen **Area Path** zugeordnet
 5. mindestens **zwei gespeicherte Queries** wurden erstellt
