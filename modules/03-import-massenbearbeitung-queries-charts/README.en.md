@@ -24,10 +24,10 @@ Because **two participants still share one project**, there are two separate dat
 ## Files for this module
 The CSV files are stored in the `assets` folder of this module:
 
-- `nutzer-a-workitems.de.csv`
-- `nutzer-b-workitems.de.csv`
-- `user-a-workitems.en.csv`
-- `user-b-workitems.en.csv`
+- [nutzer-a-workitems.de.csv](assets/nutzer-a-workitems.de.csv)
+- [nutzer-b-workitems.de.csv](assets/nutzer-b-workitems.de.csv)
+- [user-a-workitems.en.csv](assets/user-a-workitems.en.csv)
+- [user-b-workitems.en.csv](assets/user-b-workitems.en.csv)
 
 ## Important note before starting
 Agree **before the import** who in your pair is **User A** and who is **User B**. Each person should import **only their own file**. This avoids duplicate or incorrectly assigned data in the shared project.

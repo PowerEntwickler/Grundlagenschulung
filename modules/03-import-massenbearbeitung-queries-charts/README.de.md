@@ -24,10 +24,10 @@ Da sich weiterhin jeweils **zwei Teilnehmende ein Projekt teilen**, gibt es zwei
 ## Dateien fuer dieses Modul
 Die CSV-Dateien liegen in diesem Modulordner unter `assets`:
 
-- `nutzer-a-workitems.de.csv`
-- `nutzer-b-workitems.de.csv`
-- `user-a-workitems.en.csv`
-- `user-b-workitems.en.csv`
+- [nutzer-a-workitems.de.csv](assets/nutzer-a-workitems.de.csv)
+- [nutzer-b-workitems.de.csv](assets/nutzer-b-workitems.de.csv)
+- [user-a-workitems.en.csv](assets/user-a-workitems.en.csv)
+- [user-b-workitems.en.csv](assets/user-b-workitems.en.csv)
 
 ## Wichtiger Hinweis vor dem Start
 Klaeren Sie **vor dem Import**, wer in Ihrer Zweiergruppe **Nutzer A** und wer **Nutzer B** ist. Jede Person darf **nur die eigene Datei** importieren. So vermeiden Sie doppelte oder falsch zugeordnete Daten im gemeinsamen Projekt.
